@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class HappyNumber {
+	public static void main(String[] args) {
+		System.out.println("ENter a number To check Happy Number Or Not");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		int res =n;
+		while(res!=1 && res !=4) {
+			int sum =0;
+			while(res >0) {
+				int rem = n%10;
+				sum = sum+rem*rem;
+				
+			}
+		}
+	}
+
+}

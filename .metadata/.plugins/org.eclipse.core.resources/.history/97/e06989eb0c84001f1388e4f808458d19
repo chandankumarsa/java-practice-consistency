@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class HappyNum {
+	public static void main(String[] args) {
+		System.out.println("ENter a number");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int res = n;
+		while(res!=1 && res!=4) {
+			int sum =0;
+			while(res>0) {
+				int rem = n%10;
+				sum = sum+rem*rem;
+				
+			}
+		}
+	}
+
+}

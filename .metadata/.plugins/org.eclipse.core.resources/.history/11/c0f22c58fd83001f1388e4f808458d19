@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class SumofInteger {
+public static void main(String[] args) {
+	System.out.println("Enter a number to calculate the sum of the Integer");
+	Scanner sc = new Scanner(System.in);
+	int n = sc.nextInt();
+	int sum =0;
+	String str = "";
+	for(int i =1;i<=n;i++) {
+		sum = sum+i;
+		str = str+i;
+		if(i<n) {
+			str = str+="+";
+			
+		}
+	}
+	
+}
+}
+
+
+//CALCULATE THE SUM OF INTEGER (1 to N)

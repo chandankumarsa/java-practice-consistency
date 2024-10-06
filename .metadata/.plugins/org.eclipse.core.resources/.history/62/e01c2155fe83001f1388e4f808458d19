@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class MulOfNumber {
+	public static void main(String[] args) {
+		System.out.println("ENter a number to CALCULATE THE MULTIPLICATIONOF INTEGER (1 to N)");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+	}
+
+}
+
+
+//CALCULATE THE MULTIPLICATIONOF INTEGER (1 to N)
