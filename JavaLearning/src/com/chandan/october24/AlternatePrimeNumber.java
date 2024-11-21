@@ -12,8 +12,7 @@ public class AlternatePrimeNumber {
 				return false;
 			}
 		}
-		return true;
-		
+		return true;	
 	}
 public static void main(String[] args) {
 	System.out.println("Enter The Range Upto");
